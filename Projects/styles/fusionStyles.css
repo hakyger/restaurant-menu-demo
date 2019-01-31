@@ -1,0 +1,123 @@
+body {
+	background-color: #db5f4c;
+}
+
+h1, h2, h3, h4, h5 {
+	background-color: #db834c;
+	font-style: bold;
+	color: Black;
+}
+
+.dish {
+	background-color: #de4b72;
+	padding: 10px;
+	margin: 10px;
+	
+	border-style: dashed;
+	border-width: 2px;
+	border-color: #f7eff4;
+	border-radius: 15px;
+}
+
+header, footer {
+	background-color: #de4b72;
+}
+
+footer {
+	font-size: 1.2rem;
+}
+
+nav {
+	background-color: #db5f4c;
+	color: #f7eff4;
+}
+
+nav>ul>li {
+	list-style-type: none;
+	color: #f7eff4;
+}
+
+.dish>h1, h2, h3, h4, h5 {
+	font-style: italic;
+	color: #f7eff4
+}
+
+#arrow {
+	list-style-image: url("../images/arrow.png");
+	
+}
+
+a:visited {
+	color: green;
+}
+
+nav>ul>li a:visited {
+	color: orange;
+}
+
+.dish>details>summary {
+	color: red;
+}
+
+.underConstruction {
+	color: orange;
+	font-style: italic;
+}
+
+nav>ul>li a:link {
+	color: white;
+	text-decoration: none;
+}
+
+table {
+	border: solid 1pt black;
+	border-collapse: collapse;
+	background-color: #de814b;	
+}
+
+td,th {
+	border: solid 1pt black;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: #de5c4b;
+}
+
+tbody tr:hover {
+	background-color: #de4b72;
+	color: gray;
+}
+
+.pOrder {
+	color: gray;
+	background-color: #de814b;
+	border: solid 2pt gray;
+}
+
+.pOrder>caption {
+	color: black;
+}
+
+.pOrder tr:nth-child(odd) {
+	background-color: #de5c4b;
+}
+
+.pOrder tr:hover {
+	background-color: #de4b72;
+	color: black;
+}
+
+@media only screen and (max-width: 350px) {
+.dish img {display: none;}
+}
+
+
+
+
+
+
+
+
+
+
+
